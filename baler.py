@@ -194,7 +194,7 @@ def bale_CRITs(harvest, filename):
             continue
         x.join()
 
-    logger.info('Output %d indicators to CRITs using %d threads. Operation tool %d seconds\n' %
+    logger.info('Output %d indicators to CRITs using %d threads. Operation took %d seconds\n' %
                 (total_iocs, maxThreads, time.time() - start_time))
 
 
